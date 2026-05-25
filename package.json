@@ -1,7 +1,7 @@
 {
   "name": "xiaoyao-ai-backend",
   "version": "1.0.0",
-  "description": "小爻易算 AI-Agent Backend (DeepSeek API代理)",
+  "description": "小爻易算 AI-Agent Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,8 +10,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1"
+    "axios": "^1.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

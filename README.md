@@ -24,7 +24,7 @@ DeepSeek API 代理服务，为微信小程序提供AI大师解读功能。
 
 3. **配置环境变量**
    - 在 Vercel 项目设置中，添加环境变量：
-     - `DEEPSEEK_API_KEY`: sk-fa3343647506476bad05b8886044991a
+     - `DEEPSEEK_API_KEY`: (你的 DeepSeek API Key)
 
 4. **部署完成**
    - Vercel 会给你一个域名（如 `xiaoyao-ai.vercel.app`）
@@ -44,8 +44,8 @@ cd miniprogram/backend
 vercel --prod
 
 # 配置环境变量
-vercel env add DEEPEEK_API_KEY
-# 输入：sk-fa3343647506476bad05b8886044991a
+vercel env add DEEPSEEK_API_KEY
+# 输入你的 DeepSeek API Key
 ```
 
 ### 3. 测试 Backend
@@ -86,11 +86,11 @@ npm run dev
 # 服务器运行在 http://localhost:3000
 ```
 
-## 📦 文件说明
+## 📁 文件说明
 
 - `server.js` - Express 服务器，处理AI解读请求
 - `package.json` - 项目依赖配置
-- `.env.template` - 环境变量模板
+- `.env.template` - 环境变量模板（不含真实API Key）
 - `vercel.json` - Vercel 部署配置
 - `README.md` - 本文件
 
